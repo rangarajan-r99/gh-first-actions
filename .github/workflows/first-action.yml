@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: greeting
-        run: echo "Welcome to GH Action"
+        run: |
+          echo "Welcome to GH Action"
+          echo "Get going"
       - name: thank-you
-        run: echo "Bye-bye"
+        run: |
+          echo "Signing off"
+          echo "Bye-bye"
